@@ -20,7 +20,7 @@ var log = [];
 let deck = [];
 const selectSort = arr => {
   let min = 0;
-  while (min < arr.length - 1) {
+  while (min < arr.length) {
     for (let i = min + 1; i < arr.length - 1; i++) {
       if (arr[min].num > arr[i].num) {
         let aux = arr[min];
